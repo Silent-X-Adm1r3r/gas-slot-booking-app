@@ -1,4 +1,5 @@
 # ⛽ GasSlot - Gas Cylinder Booking App
+*(Triggering deployment for emojis and CORS fix)*
 
 A full-stack web application for booking gas cylinder delivery slots from certified providers.
 
