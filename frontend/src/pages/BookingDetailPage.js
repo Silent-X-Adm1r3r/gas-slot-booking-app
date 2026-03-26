@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
-import { FiArrowLeft, FiMapPin, FiCalendar, FiClock, FiX, FiRefreshCw, FiCheckCircle } from 'react-icons/fi';
+import { FiArrowLeft, FiMapPin, FiCalendar, FiX, FiRefreshCw, FiCheckCircle } from 'react-icons/fi';
 import toast from 'react-hot-toast';
 import { format } from 'date-fns';
 import { fetchBookingById, cancelBooking, rescheduleBooking } from '../redux/slices/bookingSlice';

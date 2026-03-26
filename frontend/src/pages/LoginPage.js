@@ -7,7 +7,7 @@ import * as Yup from 'yup';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FiZap, FiMail, FiLock } from 'react-icons/fi';
 import toast from 'react-hot-toast';
-import { loginUser, clearError } from '../redux/slices/authSlice';
+import { loginUser } from '../redux/slices/authSlice';
 
 const loginSchema = Yup.object({
   email: Yup.string().email('Valid email required').required('Email is required'),

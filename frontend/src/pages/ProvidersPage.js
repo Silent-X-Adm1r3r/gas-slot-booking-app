@@ -2,7 +2,7 @@ import React, { useEffect, useCallback } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { useSearchParams } from 'react-router-dom';
-import { FiSearch, FiFilter, FiX, FiSliders } from 'react-icons/fi';
+import { FiSearch, FiX, FiSliders } from 'react-icons/fi';
 import { fetchProviders, fetchCategories, setFilters, clearFilters } from '../redux/slices/providerSlice';
 import ProviderCard from '../components/ProviderCard';
 import LoadingSpinner from '../components/LoadingSpinner';

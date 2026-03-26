@@ -10,9 +10,6 @@ const categoryEmojis = {
 function ProviderCard({ provider }) {
   const navigate = useNavigate();
 
-  const stars = Array.from({ length: 5 }, (_, i) => (
-    <span key={i} style={{ color: i < Math.round(provider.rating) ? 'var(--accent)' : 'var(--border)' }}>★</span>
-  ));
 
   return (
     <div className="provider-card" onClick={() => navigate(`/providers/${provider._id}`)}>

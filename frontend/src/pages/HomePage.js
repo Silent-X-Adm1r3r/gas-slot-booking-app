@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { FiSearch, FiZap, FiShield, FiClock, FiTruck, FiStar, FiArrowRight } from 'react-icons/fi';
+import { FiSearch, FiZap, FiShield, FiClock, FiTruck, FiArrowRight } from 'react-icons/fi';
 import { fetchProviders } from '../redux/slices/providerSlice';
 import ProviderCard from '../components/ProviderCard';
 import LoadingSpinner from '../components/LoadingSpinner';
